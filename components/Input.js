@@ -20,7 +20,7 @@ export default function Input ({ handleSubmit, hasSubmittedToday }) {
                     onChange={(e) => setValue(e.target.value)}
                 >
                 </input>
-                <button type="submit" className="bg-indigo-300 rounded px-12 py-2 mx-3 w-48">
+                <button type="submit" className="bg-indigo-300 rounded px-12 py-2 mx-3 w-48 text-white">
                     Save
                 </button>
             </form>
